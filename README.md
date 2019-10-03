@@ -1,6 +1,6 @@
 **This isn't working yet, do not use**
 
-# new-relic-concourse-deployment-resource
+# new-relic-deployment-concourse-resource
 
 ## Resource Configuration
 
@@ -9,7 +9,7 @@ resource_types:
 - name: new-relic-deployment
   type: docker-image
   source:
-    repository: steinfletcher/new-relic-concourse-deployment-resource
+    repository: steinfletcher/new-relic-deployment-concourse-resource
     tag: latest
 
 resources:
